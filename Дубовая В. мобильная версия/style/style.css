@@ -1,0 +1,117 @@
+@charset "utf-8";
+body {
+	font-family: 'Lato', sans-serif;
+}
+a {
+	text-decoration: none;
+}
+.page-header{
+	max-width: 320px;
+
+	margin: 0 auto;
+}
+.nav{
+	padding: 0;
+	list-style: none;
+	justify-content: center;
+	position: center;
+	text-align: center;
+}
+.burger-line::after{
+	content: '';
+	display: block;
+    height: 2px;
+	position: relative;
+    background: #000;
+    margin-top: 10px;
+}
+.travel{
+	position: center;
+	max-width: 320px;
+}
+.nav-item{
+	color: black;
+	font-size: 20px;
+}
+.wrap{
+	max-width: 320px;
+	margin: 0 auto;
+	background: url(../images/bckg.png) no-repeat right 200px,
+ url(../images/bg.png) no-repeat right top;
+
+}
+.Title{
+	margin-top: 30px;
+	text-align: left;
+	justify-content: center;
+	font-size: 40px;
+	font-family: 'Cardo';
+	font-weight: 700;
+}
+.travel-box{
+	margin: 15px auto;
+}
+.burger-text{
+	height: 40px;
+}
+.text-black{
+	font-size: 15px;
+	margin-top: 5px;
+}
+.btn-black {
+	color: #fff;
+	display: block;
+	width: 140px;
+    font-size: 20px;
+    background-color: #000;
+    font-weight: 800;
+    padding: 16px 20px;
+    border: 3px solid #000;
+    border-radius: 10px;
+    margin-top: 38px;
+}
+.btn-black:hover {
+	color: #000;
+	background-color: #fff;
+}
+.Travel_img {
+	width: 320px;
+}
+.wrap-memory {
+	padding: 0;
+	max-width: 320px;
+}
+.title-white {
+	margin: 15px;
+	font-size: 40px;
+	color: #fff;
+	font-family: 'Cardo', serif;
+}
+.text-white{
+	margin: 15px;
+	padding-top: 20px;
+	padding-bottom: 58px;
+	color: #fff;
+}
+.memory {
+	max-width: 320;
+	margin: 0 auto;
+	text-align: left;
+	background-color: #000;
+	padding: 10px 0 70px 0;
+	width: 320px;
+}
+.btn-white {
+	margin: 15px;
+	color: #fff;
+    background-color: #000;
+    font-weight: 800;
+    font-size: 20px;
+    padding: 16px 20px;
+    border: 3px solid #fff;
+    border-radius: 5px;
+}
+.btn-white:hover {
+	color: #000;
+    background-color: #fff;
+}
